@@ -7,48 +7,37 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            max-width: 680px;
-            margin: 3rem auto;
-            padding: 0 1rem;
-            color: #24292e;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            color: #1f2328;
             line-height: 1.7;
-            background-color: #ffffff;
         }
 
         .back-link {
             display: inline-block;
             margin-bottom: 2rem;
-            color: #586069;
+            color: #636c76;
             text-decoration: none;
             font-size: 0.9rem;
         }
 
         .back-link:hover {
-            color: #0366d6;
+            color: #0969da;
         }
 
         h1 {
-            font-size: 2rem;
+            font-size: 1.8rem;
             margin-bottom: 0.2rem;
         }
 
         .post-date {
-            color: #6a737d;
-            font-size: 0.9rem;
-            margin-bottom: 2rem;
+            color: #636c76;
+            font-size: 0.85rem;
             display: block;
+            margin-bottom: 2rem;
         }
 
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Image & Caption Setup */
         img {
             max-width: 100%;
             height: auto;
@@ -58,10 +47,9 @@
 
         figcaption {
             font-size: 0.85rem;
-            color: #6a737d;
+            color: #636c76;
             text-align: center;
             margin-top: 0.5rem;
-            margin-bottom: 1.5rem;
             font-style: italic;
         }
     </style>
@@ -74,17 +62,13 @@
         <h1>Building the Core Prototype</h1>
         <span class="post-date">October 24, 2026</span>
 
-        <p>Today I tackled the foundational structure of the siloed project. The goal was to isolate the processing module while maintaining seamless external access.</p>
+        <p>Today I worked on isolating the project modules while keeping communication seamless.</p>
 
-        <p>You can view the project repository on <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>.</p>
-
-        <!-- Inline Image Block -->
+        <!-- Image stored in /images/ -->
         <figure>
-            <img src="../images/prototype-diagram.png" alt="Architecture Diagram">
-            <figcaption>Figure 1: Module isolation logic flow.</figcaption>
+            <img src="../images/architecture.png" alt="Architecture Diagram">
+            <figcaption>Figure 1: Siloed module connection overview.</figcaption>
         </figure>
-
-        <p>Routing data through this isolated environment significantly improves security and performance.</p>
     </article>
 
 </body>
